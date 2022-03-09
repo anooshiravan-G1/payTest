@@ -40,16 +40,35 @@
     .form{
         margin: auto;
     }
+    .nameInput{
+        width: 80% !important;
+    }
+    #signUpEmail, #InputPassword{
+        width: 80% !important;
+    }
+    .signUpCustom{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-inline: auto !important;
+    }
 }
-
-
 @media only screen and (min-width: 500px) {
     .form{
         margin: auto;
         width: auto;
     }
+    .nameInput{
+        width: 80% !important;
+    }
+    #signUpEmail, #InputPassword{
+        width: 80% !important;
+    }
 }
-
+@media only screen and (min-width: 575px) {
+    #signUpEmail, #InputPassword{
+        width: 90% !important;
+    }
+}
 @media only screen and (min-width: 992px) {
     .form{
         margin: auto;
@@ -107,6 +126,48 @@
 
 
 
+/*  signUp  Form    */
+.signUpCustom{
+    /*display: inline-flex;*/
+    width: 90%;
+    margin-inline: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: #3b3b3b 1px solid;
+    border-radius: 5rem;
+}
+#signUpForm{
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;    
+}
+.nameInput{
+    width: 80%;
+}
+.signUpCustom1{
+}
+.signUpCustom2{
+    border-radius: 0px 5rem 5rem 0px;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1567136724610-e582484cfa69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+}
+#signUpEmail, #InputPassword{
+    width: 90%;
+}
+#signUpEmail::placeholder {
+    align-items: flex-start;
+    color: #dbdbdb;
+    text-align: end;
+}
+.birthInput{
+    width: 68%;
+}
+.img-fluid{
+    border-radius: 5rem !important;
+    width: 100%;
+    height: max-content;
+    margin-top: 20px;
+}
 
 /*  Footer  */
 .footerCustom{
